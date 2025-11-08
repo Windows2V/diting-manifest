@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  
+  # device tree
+  <project path="device/xiaomi/diting" name="bomboozler/android_device_xiaomi_diting" remote="github" revision="lineage-22.2" />
+  <project path="device/xiaomi/sm8450-common" name="bomboozler/android_device_xiaomi_sm8450-common" remote="github" revision="lineage-23.0" />
+
+  # vendor
+  <project path="vendor/xiaomi/diting" name="TheMuppets/proprietary_vendor_xiaomi_diting" remote="github" revision="lineage-23.0" />
+  <project path="vendor/xiaomi/sm8450-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8450-common" remote="github" revision="lineage-23.0" />
+
+  # kernel
+  <project path="kernel/xiaomi/sm8450" name="bomboozler/android_kernel_xiaomi_sm8450" remote="github" revision="derp16-ksun-susfs" />
+  <project path="kernel/xiaomi/sm8450-modules" name="bomboozler/android_kernel_xiaomi_sm8450-modules" remote="github" revision="lineage-22.2" />
+  <project path="kernel/xiaomi/sm8450-devicetrees" name="bomboozler/android_kernel_xiaomi_sm8450-devicetrees" remote="github" revision="lineage-22.2" />
+
+  # hadware
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
+
+  # other
+  <project path="hardware/dolby" name="jessepincay/hardware_dolby" remote="github" revision="bka" />
+</manifest>
